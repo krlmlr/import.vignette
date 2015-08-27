@@ -11,4 +11,5 @@ vignette: >
 
 ```{r}
 import::from(knitr, opts_chunk)
+import::from(tidyr, spread)
 ```
