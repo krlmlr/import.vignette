@@ -10,6 +10,7 @@ vignette: >
 ---
 
 ```{r}
+requireNamespace("tidyr")
 import::from(knitr, opts_chunk)
 import::from(tidyr, spread)
 ```
